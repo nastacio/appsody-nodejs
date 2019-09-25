@@ -4,6 +4,6 @@ metadata:
   name: appsody-hello-world
   namespace: kabanero
 spec:
-  applicationImage: index.docker.io/dnastacio/appsody-hello-world
-  stack: java-microprofile
+  applicationImage: docker-registry.default.svc:5000/kabanero/appsody-hello-world
+  stack: nodejs-express
   createKnativeService: true

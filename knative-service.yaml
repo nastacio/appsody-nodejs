@@ -9,7 +9,7 @@ spec:
       revisionTemplate:
         spec:
           container:
-            image: index.docker.io/dnastacio/appsody-hello-world
+            image: docker-registry.default.svc:5000/kabanero/appsody-hello-worlds
             imagePullPolicy: Always
             ports:
             - containerPort: 9080
