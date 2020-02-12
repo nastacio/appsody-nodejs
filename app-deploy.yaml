@@ -6,4 +6,4 @@ metadata:
 spec:
   applicationImage: dnastacio/appsody-hello-world
   stack: nodejs-express
-  createKnativeService: true
+  createKnativeService: false
